@@ -8,7 +8,8 @@ A standard Ubuntu 12.04 LTS 64-bit box. It has pre-installed apache2, mySql, php
   - MySQL 
   - Java 7
   - xdebug
-  -
+  
+
 How Download and Install Vagrant
 -----------
 * [Download] - download vagrant from their officail website
