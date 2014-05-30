@@ -3,11 +3,10 @@ Vagrant Box Precise64
 
 A standard Ubuntu 12.04 LTS 64 bit box. It has pre-installed apache2, mySql, php5, java 7 and some other php extentions 
 
-  - PHP  5.3
+  - PHP 5.3
   - Apache 2
-  - MySQL 
-  - Java 7
-  - xdebug
+  - MySQL  
+  - xdebug (PHP5 Modules) 
   
 
 How Download and Install Vagrant
