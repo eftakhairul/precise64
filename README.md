@@ -1,4 +1,4 @@
-Vagrant Box Precise64
+\Vagrant Box Precise64
 =========
 
 A standard Ubuntu 12.04 LTS 64 bit box. It has pre-installed apache2, mySql, php5, java 7 and some other php extentions 
@@ -23,6 +23,15 @@ vagrant box add vagrant-precise64 precise64.box
 vagrant init vagrant-precise64
 vagrant up
 ```
+
+Password
+--------------
+
+```sh
+Username : vagrant
+Password : vagrant
+```
+
 Version
 ----
 1.0
