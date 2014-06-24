@@ -1,4 +1,4 @@
-\Vagrant Box Precise64
+Vagrant Box Precise64
 =========
 
 A standard Ubuntu 12.04 LTS 64 bit box. It has pre-installed apache2, mySql, php5, java 7 and some other php extentions 
@@ -36,9 +36,9 @@ Version
 ----
 1.0
 
-Doname to this project
+Donate to this project
 ----
-[Donate] - Donate through paypal
+[Donate] - Donate through paypal or credit card
 
 License
 ----
