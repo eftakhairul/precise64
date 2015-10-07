@@ -19,7 +19,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   
   #Sync with host PC's project root with guest file Example: Project root of Host PC ~/codes/php/hellp_world
-  config.vm.synced_folder "any directory or project root", "/var/www"
+  #config.vm.synced_folder "~/codes/php/hellp_world", "/var/www"
+  
+  #default
+  config.vm.synced_folder "./", "/var/www", create: true, group: "www-data", owner: "www-data"
 
   # Update the server
   config.vm.provision :shell, :inline => "apt-get update --fix-missing"
