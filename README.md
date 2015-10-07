@@ -5,6 +5,7 @@ A standard Ubuntu 12.04 LTS 64 bit box. It has pre-installed apache2, php5, java
 
   - PHP 5.3
   - Apache 2
+  - MySQL
   - xdebug (PHP5 Modules) 
   - curl
   - GIT
@@ -25,6 +26,13 @@ cd ~ | wget https://dl.dropboxusercontent.com/u/6886596/precise64.box
 vagrant box add vagrant-precise64 precise64.box
 vagrant init vagrant-precise64
 vagrant up
+```
+
+If you want with MySQL
+--------------
+By default, it doen't not come up with MySQL. Just run following command, in stead of `vagrant up`
+```sh
+vagrant up --provision
 ```
 
 Password
