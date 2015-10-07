@@ -34,4 +34,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         #You can more CPU
         #vb.cpus = 2
   end
+  
+  #Provisioning
+  config.vm.provision "shell" do |s|
+    s.path "provision/setup.sh"
+  end
 end
