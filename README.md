@@ -35,6 +35,12 @@ By default, it doen't not come up with MySQL. Just run following command, in ste
 vagrant up --provision
 ```
 
+If you already the command `vagrant up`, then run following command...
+
+```sh
+vagrant reload --provision
+```
+
 Password
 --------------
 
