@@ -36,7 +36,5 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   end
   
   #Provisioning
-  config.vm.provision "shell" do |s|
-    s.path "provision/setup.sh"
-  end
+  config.vm.provision :shell, path: "provision/setup.sh"
 end
