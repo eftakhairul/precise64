@@ -20,25 +20,10 @@ How Download and Install Vagrant
 
 How to use it
 --------------
+To intigrate to your project, run following command
 
 ```sh
-cd ~ | wget https://dl.dropboxusercontent.com/u/6886596/precise64.box
-vagrant box add vagrant-precise64 precise64.box
-vagrant init vagrant-precise64
-vagrant up
-```
-
-If you want with MySQL
---------------
-By default, it doen't not come up with MySQL. Just run following command, in stead of `vagrant up`
-```sh
-vagrant up --provision
-```
-
-If you already the command `vagrant up`, then run following command...
-
-```sh
-vagrant reload --provision
+bash < <(curl -s -S -L https://raw.githubusercontent.com/eftakhairul/precise64/master/installer)
 ```
 
 Password
