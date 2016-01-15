@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+
+mkdir provision
+cd provision
+wget https://raw.githubusercontent.com/eftakhairul/precise64/master/provision/setup.sh
+cd ..
+wget https://raw.githubusercontent.com/eftakhairul/precise64/master/Vagrantfile
+
