@@ -6,9 +6,7 @@ VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   #Vagrant box
-  config.vm.box     = "vagrant-precise64"
-  config.vm.box_url = "https://dl.dropboxusercontent.com/u/6886596/precise64.box"
-
+   config.vm.box = "eftakhairul/precise64"
 
   # Forward a port from the guest to the host, which allows for outside
   # computers to access the VM                                        
